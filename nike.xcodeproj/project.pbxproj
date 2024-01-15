@@ -7,18 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E043BE72B35CC7F00D0B4DE /* CatalogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E043BE62B35CC7F00D0B4DE /* CatalogView.swift */; };
+		7E4917C82B0D57CD0023FC4C /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4917C72B0D57CD0023FC4C /* Utils.swift */; };
 		7E4FE7FB2B0A887000F07DE2 /* nikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4FE7FA2B0A887000F07DE2 /* nikeApp.swift */; };
 		7E4FE7FD2B0A887000F07DE2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E4FE7FC2B0A887000F07DE2 /* ContentView.swift */; };
 		7E4FE7FF2B0A887200F07DE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4FE7FE2B0A887200F07DE2 /* Assets.xcassets */; };
 		7E4FE8022B0A887200F07DE2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E4FE8012B0A887200F07DE2 /* Preview Assets.xcassets */; };
+		7E540C472B13E55F004DCF72 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E540C462B13E55F004DCF72 /* Launch Screen.storyboard */; };
+		7ECB6AFE2B0BD4360025422C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB6AFD2B0BD4360025422C /* WebView.swift */; };
+		7ECB6B002B0BD4F20025422C /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB6AFF2B0BD4F20025422C /* MainView.swift */; };
+		7ECB6B022B0BD54F0025422C /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB6B012B0BD54F0025422C /* AuthView.swift */; };
+		7ECB6B042B0BD5950025422C /* OnBoardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7ECB6B032B0BD5950025422C /* OnBoardingView.swift */; };
+		7EE4E2052B2DF5B80034A7E2 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4E2042B2DF5B80034A7E2 /* HomeView.swift */; };
+		7EE4E2072B2DFC5F0034A7E2 /* ShopView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE4E2062B2DFC5F0034A7E2 /* ShopView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7E043BE62B35CC7F00D0B4DE /* CatalogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogView.swift; sourceTree = "<group>"; };
+		7E4917C72B0D57CD0023FC4C /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 		7E4FE7F72B0A887000F07DE2 /* nike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E4FE7FA2B0A887000F07DE2 /* nikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nikeApp.swift; sourceTree = "<group>"; };
 		7E4FE7FC2B0A887000F07DE2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E4FE7FE2B0A887200F07DE2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E4FE8012B0A887200F07DE2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7E540C452B13E4CB004DCF72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		7E540C462B13E55F004DCF72 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		7ECB6AFD2B0BD4360025422C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		7ECB6AFF2B0BD4F20025422C /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		7ECB6B012B0BD54F0025422C /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		7ECB6B032B0BD5950025422C /* OnBoardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnBoardingView.swift; sourceTree = "<group>"; };
+		7EE4E2042B2DF5B80034A7E2 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		7EE4E2062B2DFC5F0034A7E2 /* ShopView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +54,7 @@
 		7E4FE7EE2B0A887000F07DE2 = {
 			isa = PBXGroup;
 			children = (
+				7E540C462B13E55F004DCF72 /* Launch Screen.storyboard */,
 				7E4FE7F92B0A887000F07DE2 /* nike */,
 				7E4FE7F82B0A887000F07DE2 /* Products */,
 			);
@@ -51,10 +71,19 @@
 		7E4FE7F92B0A887000F07DE2 /* nike */ = {
 			isa = PBXGroup;
 			children = (
+				7E540C452B13E4CB004DCF72 /* Info.plist */,
+				7EE4E2062B2DFC5F0034A7E2 /* ShopView.swift */,
 				7E4FE7FA2B0A887000F07DE2 /* nikeApp.swift */,
 				7E4FE7FC2B0A887000F07DE2 /* ContentView.swift */,
 				7E4FE7FE2B0A887200F07DE2 /* Assets.xcassets */,
 				7E4FE8002B0A887200F07DE2 /* Preview Content */,
+				7ECB6AFD2B0BD4360025422C /* WebView.swift */,
+				7ECB6AFF2B0BD4F20025422C /* MainView.swift */,
+				7ECB6B012B0BD54F0025422C /* AuthView.swift */,
+				7ECB6B032B0BD5950025422C /* OnBoardingView.swift */,
+				7E4917C72B0D57CD0023FC4C /* Utils.swift */,
+				7EE4E2042B2DF5B80034A7E2 /* HomeView.swift */,
+				7E043BE62B35CC7F00D0B4DE /* CatalogView.swift */,
 			);
 			path = nike;
 			sourceTree = "<group>";
@@ -125,6 +154,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E540C472B13E55F004DCF72 /* Launch Screen.storyboard in Resources */,
 				7E4FE8022B0A887200F07DE2 /* Preview Assets.xcassets in Resources */,
 				7E4FE7FF2B0A887200F07DE2 /* Assets.xcassets in Resources */,
 			);
@@ -137,6 +167,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7ECB6AFE2B0BD4360025422C /* WebView.swift in Sources */,
+				7ECB6B022B0BD54F0025422C /* AuthView.swift in Sources */,
+				7ECB6B002B0BD4F20025422C /* MainView.swift in Sources */,
+				7EE4E2072B2DFC5F0034A7E2 /* ShopView.swift in Sources */,
+				7E043BE72B35CC7F00D0B4DE /* CatalogView.swift in Sources */,
+				7E4917C82B0D57CD0023FC4C /* Utils.swift in Sources */,
+				7ECB6B042B0BD5950025422C /* OnBoardingView.swift in Sources */,
+				7EE4E2052B2DF5B80034A7E2 /* HomeView.swift in Sources */,
 				7E4FE7FD2B0A887000F07DE2 /* ContentView.swift in Sources */,
 				7E4FE7FB2B0A887000F07DE2 /* nikeApp.swift in Sources */,
 			);
@@ -275,11 +313,14 @@
 				DEVELOPMENT_TEAM = DUKFL8BGKM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nike/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +345,14 @@
 				DEVELOPMENT_TEAM = DUKFL8BGKM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = nike/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
